@@ -71,3 +71,7 @@ UnitTestSessionAction 1494586296631 TestBowling.java FAIL
 RefactoringAction 1494586474119 TestBowling.java RENAME BrojFrejmova()=>void score() METHOD
 RefactoringAction 1494586483387 TestBowling.java REMOVE score() METHOD
 EditAction 1494586488067 TestBowling.java 562 4 10 3
+RefactoringAction 1494586712780 BowlingGame.java ADD BowlingGame()/2 METHOD
+RefactoringAction 1494586724231 BowlingGame.java RENAME BowlingGame()/2=>BowlingGame(List) METHOD
+RefactoringAction 1494586739193 BowlingGame.java RENAME BowlingGame(List)=>BowlingGame(Frame) METHOD
+EditAction 1494586843578 BowlingGame.java 1094 5 3 0

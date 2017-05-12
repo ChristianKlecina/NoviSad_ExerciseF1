@@ -17,6 +17,10 @@ public class BowlingGame {
 	
 	public BowlingGame(){}
 	
+	public BowlingGame(Frame frame){
+		
+	}
+	
 	// adds a frame to the game
 	public void addFrame(Frame frame){
 		if(frame.frameDodavanje == true){
