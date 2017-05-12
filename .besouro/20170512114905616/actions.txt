@@ -3,3 +3,6 @@ FileOpenedAction 1494582625210 TestBowling.java 165 1 1 0
 FileOpenedAction 1494582644007 Frame.java 671 6 7 0
 FileOpenedAction 1494582647189 BowlingException.java 58 0 0 0
 EditAction 1494583448681 Frame.java 706 6 8 0
+RefactoringAction 1494583579028 TestBowling.java ADD void Strike FIELD
+RefactoringAction 1494583580048 TestBowling.java RENAME Strike=>void Strike() METHOD
+EditAction 1494583651183 TestBowling.java 272 2 3 1
