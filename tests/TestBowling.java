@@ -31,6 +31,21 @@ public class TestBowling {
 		assertEquals(9,9);
 	}
 	
-	
+	@Test
+	public void Bonus(){
+		BowlingGame game = new BowlingGame();
+		Frame frame = new Frame(10,0);
+		game.addFrame(frame);
+		boolean frameNo = false;
+		
+		if(game.frameNumber >= 10){
+			frameNo = true;
+		} else
+			frameNo = false;
+		
+		assertTrue(frameNo);
+		
+		
+	}
 
 }

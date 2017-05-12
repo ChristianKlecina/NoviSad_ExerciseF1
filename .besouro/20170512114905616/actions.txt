@@ -51,3 +51,4 @@ RefactoringAction 1494585900963 BowlingGame.java RENAME Frame=>int frameNumber F
 RefactoringAction 1494585989295 TestBowling.java RENAME Bonus()=>void BrojFrejmova() METHOD
 RefactoringAction 1494586005800 TestBowling.java RENAME BrojFrejmova()=>void Bonus() METHOD
 EditAction 1494586144259 BowlingGame.java 1048 4 3 0
+EditAction 1494586195244 TestBowling.java 844 5 16 4
