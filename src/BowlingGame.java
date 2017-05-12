@@ -11,6 +11,7 @@ public class BowlingGame {
 	private Frame bonus;
 	private int bonusBroj = 0;
 	Frame frame = new Frame();
+	public int frameNumber;
 	
 	
 	
@@ -19,7 +20,8 @@ public class BowlingGame {
 	// adds a frame to the game
 	public void addFrame(Frame frame){
 		if(frame.frameDodavanje == true){
-			frames.add(frame);			
+			frames.add(frame);	
+			frameNumber++;
 		}
 			
 		
