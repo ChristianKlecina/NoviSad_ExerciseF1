@@ -10,11 +10,14 @@ public class BowlingGame {
 	private List<Frame> frames = new ArrayList<Frame>();
 	private Frame bonus;
 	
+	
 	public BowlingGame(){}
 	
 	// adds a frame to the game
 	public void addFrame(Frame frame){
-		//to be implemented
+		for(int i = 0; i < 10; i++){
+			frames.add(frame);
+		}
 	}
 	
 	// Sets the bonus throws at the end of the game
