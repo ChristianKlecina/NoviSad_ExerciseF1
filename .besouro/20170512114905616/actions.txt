@@ -33,3 +33,6 @@ RefactoringAction 1494585016692 BowlingGame.java RENAME frame/2=>bool frameDodav
 RefactoringAction 1494585192030 BowlingGame.java REMOVE frameDodavanje FIELD
 RefactoringAction 1494585203755 Frame.java ADD boolean frameDodavanje FIELD
 EditAction 1494585264692 BowlingGame.java 1006 4 3 0
+CompilationAction 1494585267562 BowlingGame.java
+CompilationAction 1494585267562 BowlingGame.java
+EditAction 1494585292087 Frame.java 819 7 7 0
