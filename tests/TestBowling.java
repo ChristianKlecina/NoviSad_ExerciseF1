@@ -45,8 +45,7 @@ public class TestBowling {
 		game.addFrame(frame);
 		game.addFrame(frame);
 		game.addFrame(frame);
-		game.addFrame(frame);
-		game.addFrame(frame);
+
 		boolean frameNo = false;
 		
 		if(game.frameNumber >= 10){
