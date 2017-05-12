@@ -39,3 +39,5 @@ EditAction 1494585292087 Frame.java 819 7 7 0
 RefactoringAction 1494585334896 TestBowling.java ADD void Bonus FIELD
 RefactoringAction 1494585336971 TestBowling.java RENAME Bonus=>void Bonus() METHOD
 EditAction 1494585473431 BowlingGame.java 1005 4 3 0
+RefactoringAction 1494585500031 TestBowling.java RENAME Bonus()=>void Score() METHOD
+EditAction 1494585571453 TestBowling.java 556 4 10 3
