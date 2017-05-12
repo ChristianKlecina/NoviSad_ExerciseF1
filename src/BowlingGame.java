@@ -9,25 +9,36 @@ public class BowlingGame {
 	//a bowling game is made of (at least) 10 frames
 	private List<Frame> frames = new ArrayList<Frame>();
 	private Frame bonus;
+	private int bonusBroj = 10;
+	Frame frame = new Frame();
+	
 	
 	
 	public BowlingGame(){}
 	
 	// adds a frame to the game
 	public void addFrame(Frame frame){
-		for(int i = 0; i < 10; i++){
-			frames.add(frame);
+		if(frame.frameDodavanje == true){
+			frames.add(frame);			
 		}
+			
+		
 	}
 	
 	// Sets the bonus throws at the end of the game
 	public void setBonus(int firstThrow, int secondThrow) {
-		//to be implemented
+		if(firstThrow == 10){
+			bonusBroj = bonus.getFirstThrow() * 2; 
+		} else if(firstThrow + secondThrow == 10){
+			bonusBroj = bonus.getFirstThrow(); 
+		} else 
+			bonusBroj = 0;
+		
 	}
 	
 	// Returns the game score
 	public int score(){
-		//to be implemented: should return game score 
-		return 0;
+		 return frame.getFirstThrow() + frame.getSecondThrow() + bonusBroj ;
+		
 	}
 }

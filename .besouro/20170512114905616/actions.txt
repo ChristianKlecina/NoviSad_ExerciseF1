@@ -22,3 +22,14 @@ RefactoringAction 1494583916807 BowlingGame.java RENAME frame=>int frameQuantity
 RefactoringAction 1494584048448 BowlingGame.java REMOVE frameQuantity FIELD
 EditAction 1494584051710 BowlingGame.java 748 4 2 0
 EditAction 1494584136978 BowlingGame.java 748 4 2 0
+RefactoringAction 1494584464485 BowlingGame.java ADD int bonus/2 FIELD
+RefactoringAction 1494584470273 BowlingGame.java RENAME bonus/2=>int bonusBroj FIELD
+RefactoringAction 1494584741258 BowlingGame.java ADD Frame frame FIELD
+RefactoringAction 1494584742303 BowlingGame.java RENAME BowlingGame()=><initializer /1> null
+RefactoringAction 1494584743848 BowlingGame.java RENAME <initializer /1>=>BowlingGame() METHOD
+RefactoringAction 1494584763629 Frame.java ADD Frame() METHOD
+RefactoringAction 1494585008939 BowlingGame.java ADD bool frame/2 FIELD
+RefactoringAction 1494585016692 BowlingGame.java RENAME frame/2=>bool frameDodavanje FIELD
+RefactoringAction 1494585192030 BowlingGame.java REMOVE frameDodavanje FIELD
+RefactoringAction 1494585203755 Frame.java ADD boolean frameDodavanje FIELD
+EditAction 1494585264692 BowlingGame.java 1006 4 3 0
