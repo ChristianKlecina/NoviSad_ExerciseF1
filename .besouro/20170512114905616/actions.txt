@@ -52,3 +52,8 @@ RefactoringAction 1494585989295 TestBowling.java RENAME Bonus()=>void BrojFrejmo
 RefactoringAction 1494586005800 TestBowling.java RENAME BrojFrejmova()=>void Bonus() METHOD
 EditAction 1494586144259 BowlingGame.java 1048 4 3 0
 EditAction 1494586195244 TestBowling.java 844 5 16 4
+UnitTestCaseAction 1494586199004 TestBowling.java FAIL
+UnitTestSessionAction 1494586199004 TestBowling.java FAIL
+RefactoringAction 1494586207662 TestBowling.java RENAME Bonus()=>void Broj() METHOD
+RefactoringAction 1494586209253 TestBowling.java RENAME Broj()=>void BrojFrejmova() METHOD
+EditAction 1494586235696 TestBowling.java 1101 5 26 4

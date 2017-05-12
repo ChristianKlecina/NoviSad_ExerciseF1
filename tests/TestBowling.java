@@ -32,9 +32,19 @@ public class TestBowling {
 	}
 	
 	@Test
-	public void Bonus(){
+	public void BrojFrejmova(){
 		BowlingGame game = new BowlingGame();
 		Frame frame = new Frame(10,0);
+		game.addFrame(frame);
+		game.addFrame(frame);
+		game.addFrame(frame);
+		game.addFrame(frame);
+		game.addFrame(frame);
+		game.addFrame(frame);
+		game.addFrame(frame);
+		game.addFrame(frame);
+		game.addFrame(frame);
+		game.addFrame(frame);
 		game.addFrame(frame);
 		boolean frameNo = false;
 		
