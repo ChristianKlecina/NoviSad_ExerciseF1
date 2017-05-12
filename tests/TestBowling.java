@@ -54,7 +54,7 @@ public class TestBowling {
 		} else
 			frameNo = false;
 		
-		assertTrue(frameNo);
+		assertTrue(!frameNo);
 		
 		
 	}
