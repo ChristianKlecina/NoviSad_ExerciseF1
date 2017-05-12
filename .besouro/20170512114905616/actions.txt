@@ -41,3 +41,6 @@ RefactoringAction 1494585336971 TestBowling.java RENAME Bonus=>void Bonus() METH
 EditAction 1494585473431 BowlingGame.java 1005 4 3 0
 RefactoringAction 1494585500031 TestBowling.java RENAME Bonus()=>void Score() METHOD
 EditAction 1494585571453 TestBowling.java 556 4 10 3
+UnitTestCaseAction 1494585575165 TestBowling.java FAIL
+UnitTestSessionAction 1494585575165 TestBowling.java FAIL
+EditAction 1494585675276 TestBowling.java 562 4 10 3
