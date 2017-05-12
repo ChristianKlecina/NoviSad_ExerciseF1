@@ -21,3 +21,4 @@ RefactoringAction 1494583910162 BowlingGame.java ADD int frame FIELD
 RefactoringAction 1494583916807 BowlingGame.java RENAME frame=>int frameQuantity FIELD
 RefactoringAction 1494584048448 BowlingGame.java REMOVE frameQuantity FIELD
 EditAction 1494584051710 BowlingGame.java 748 4 2 0
+EditAction 1494584136978 BowlingGame.java 748 4 2 0
