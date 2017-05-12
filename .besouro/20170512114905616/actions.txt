@@ -12,3 +12,6 @@ UnitTestSessionAction 1494583664529 TestBowling.java FAIL
 RefactoringAction 1494583680947 TestBowling.java ADD void Strike()/2 METHOD
 RefactoringAction 1494583684967 TestBowling.java RENAME Strike()/2=>void Spare() METHOD
 EditAction 1494583689682 TestBowling.java 377 3 5 2
+UnitTestCaseAction 1494583694994 TestBowling.java FAIL
+UnitTestSessionAction 1494583694996 TestBowling.java FAIL
+EditAction 1494583741570 TestBowling.java 376 3 5 2

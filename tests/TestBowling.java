@@ -18,7 +18,7 @@ public class TestBowling {
 	@Test
 	public void Spare(){
 		Frame frame = new Frame(8, 2);
-		assertTrue(frame.isStrike());
+		assertTrue(frame.isSpare());
 	}
 
 }
